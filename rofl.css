@@ -1,0 +1,71 @@
+body {
+    background-color: #cc3813; /* Green background */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50; /* Dark green header */
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.habits {
+    background-color: #f7f7f7; /* Light gray habits section */
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#habit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habit-list li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#habit-list li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red delete button */
+    color: #fff;
+    border: none;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #e91e63;
+}
+
+#add-habit-form {
+    margin-top: 1em;
+}
+
+#add-habit-btn {
+    background-color: #4CAF50; /* Dark green button */
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-habit-btn:hover
